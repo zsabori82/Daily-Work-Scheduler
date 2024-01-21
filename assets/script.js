@@ -16,6 +16,7 @@ const localeSettings = {};
         $(this).toggleClass('future', blockHour > currentHour);
       });
     }
+  });
     // Adding a  function(named textEntry) to save the user's input in a textarea to localStorage -specificly when the corresponding save button has been clicked. Uses jQuery to attach a click event handler to elements with the class saveBtn.
     // When a save button is clicked, it retrieves the ID of the parent element and the value of the sibling element with the class description, and saves them to the localStorage.
 
