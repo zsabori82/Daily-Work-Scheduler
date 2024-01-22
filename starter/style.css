@@ -70,3 +70,16 @@ header {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
 }
+.clearBtn {
+  margin-top: 30px;
+  padding: 10px;
+  align-items: left;
+  text-align: center;
+  background-color: rgb(25, 77, 19);
+  
+}
+
+.clearBtn i:hover {
+  font-size:20px;
+  transition: all 0.3s ease-in-out;
+}
