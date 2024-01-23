@@ -2,7 +2,7 @@ $(document).ready(function() {
   console.log('Ready!');
   
   // Displaying the current date and time from: day.js
-  let now = dayjs().format('dddd,MMMM Do YYYY');
+  let now = dayjs().format('dd,MM, YYYY');
   let displayDate = document.getElementById('currentDay');
   displayDate.innerHTML = now;
 
